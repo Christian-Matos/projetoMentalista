@@ -11,6 +11,8 @@ let victoryScreen = document.querySelector('.win')
 
 function start() {
     
+    clear()
+    
     defeatScreen.style.display = "none"
     victoryScreen.style.display = "none"
     options.style.display = "none"
@@ -70,7 +72,6 @@ function youWin () {
 function playAgain () {
     
     start()
-    clear()
     
 }
 
