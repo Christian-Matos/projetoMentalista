@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: goldenrod;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.start-button {
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid black;
+    background-color:  goldenrod;
+    font-size: 20px;
+}
+
+.start-button:hover {
+    background-color: black;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    cursor: pointer;    
+}
+ 
+h2 {
+    color: goldenrod;
+    font-size: 40px;
+}
+
+h3 {
+    color: goldenrod;
+    font-size: 30px;
+}
+
+.playGame {
+    display: none;
+    flex-direction: column;
+}
+
+.game-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playGame input {
+    width: 200px;
+    height: 50px;
+    align-self: center;
+    outline: none;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 70px 0;
+    color: goldenrod;
+    border: 3px solid goldenrod;
+    background-color: black;
+}
+
+.playGame button {
+    width: 60px;
+    align-self: center;
+    background-color: goldenrod;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    margin: 70px 0;
+}
+
+.playGame button:hover {
+    background-color: black;
+    color: goldenrod;
+    border: 3px solid goldenrod;
+}
+
+.win {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.win h1 {
+    color: green;
+    font-size: 100px;
+}
+
+.game-over {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.game-over h1 {
+    color: red;
+    font-size: 100px;
+}
+
+.game-over p {
+    color: red;
+    font-size: 30px;
+}
+
+.play-again {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.play-again h4 {
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.play-again button {
+    height: 50px;
+    width: 150px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.play-again .btn-yes {
+    background-color: green;
+    border: 1px solid darkgreen;
+    border-radius: 3px;
+    outline: none;
+}
+
+.play-again .btn-yes:hover {
+    background-color: darkgreen;
+}
+
+.play-again .btn-not {
+    background-color: red;
+    border: 1px solid darkred;
+    border-radius: 3px;
+    outline: none;
+}
+
+.play-again .btn-not:hover {
+    background-color: darkred;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section>
+        <div class="startGame">
+            <button class="start-button" onclick="start()">Clique para jogar!</button>
+        </div>
+        <div class="playGame">
+            <h2>Digite um número entre 0 e 10</h2>
+            <div class="game-area">
+                    <input type="text" id="chosen-number" name="chosen-number">
+                    <button onclick="gameplay()" class="playGame-button">Chutar número</button>
+            </div>
+            <h3 class="chance-number"></h3>
+        </div>
+        <div class="win">
+            <h1>You Win</h1>
+        </div>
+        <div class="game-over">
+            <h1>Game Over</h1>
+            <p></p>
+        </div>
+        <div class="play-again">
+            <h4>Deseja jogar novamente?</h4>
+            <div>
+                <button class="btn-yes" onclick="playAgain()">Sim</button>
+                <button class="btn-not" onclick="notPlayAgain()">Não</button>
+            </div>
+        </div>
+    </section>
+        
+    <script src="script.js"></script>
+</body>
+</html>
