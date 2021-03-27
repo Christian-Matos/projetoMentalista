@@ -33,11 +33,11 @@ function gameplay () {
         youWin()
     } else if (chosenNumber > secretNumber) {
         attempts--
-        remainingAttempts.innerHTML = `O número secreto é menor. <br> Você tem mais ${attempts} tentativas!`
+        remainingAttempts.innerHTML = `O número secreto é menor. <br> Você tem mais ${attempts} tentativa(s)!`
         clear()
     } else if (chosenNumber < secretNumber) {
         attempts--
-        remainingAttempts.innerHTML = `O número secreto é maior. <br> Você tem mais ${attempts} tentativas!`
+        remainingAttempts.innerHTML = `O número secreto é maior. <br> Você tem mais ${attempts} tentativa(s)!`
         clear()
     }
 
